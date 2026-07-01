@@ -1,13 +1,13 @@
 {
     "name": "stayblox/stayblox-php",
-    "description": "Official PHP SDK for building apps on the Stayblox platform (Core + Inbox).",
+    "description": "Official PHP SDK for building apps on the Stayblox platform.",
     "type": "library",
     "license": "proprietary",
-    "homepage": "https://github.com/stayblox/stayblox-php",
+    "homepage": "https://github.com/staybloxapp/stayblox-php",
     "keywords": ["stayblox", "sdk", "api", "apps", "inbox", "laravel"],
     "support": {
-        "issues": "https://github.com/stayblox/stayblox-php/issues",
-        "source": "https://github.com/stayblox/stayblox-php"
+        "issues": "https://github.com/staybloxapp/stayblox-php/issues",
+        "source": "https://github.com/staybloxapp/stayblox-php"
     },
     "require": {
         "php": "^8.4",
