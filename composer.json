@@ -1,0 +1,37 @@
+{
+    "name": "stayblox/stayblox-php",
+    "description": "Official PHP SDK for building apps on the Stayblox platform (Core + Inbox).",
+    "type": "library",
+    "license": "proprietary",
+    "homepage": "https://github.com/stayblox/stayblox-php",
+    "keywords": ["stayblox", "sdk", "api", "apps", "inbox", "laravel"],
+    "support": {
+        "issues": "https://github.com/stayblox/stayblox-php/issues",
+        "source": "https://github.com/stayblox/stayblox-php"
+    },
+    "require": {
+        "php": "^8.4",
+        "illuminate/support": "^13.0",
+        "illuminate/http": "^13.0",
+        "illuminate/database": "^13.0",
+        "illuminate/encryption": "^13.0",
+        "illuminate/contracts": "^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^11.0",
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": { "Stayblox\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Stayblox\\Tests\\": "tests/" }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Stayblox\\Core\\StaybloxServiceProvider"]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
