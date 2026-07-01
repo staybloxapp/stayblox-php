@@ -22,7 +22,7 @@ composer require stayblox/stayblox-php
 
 Full guides, the API reference, and worked examples live in the Stayblox developer documentation:
 
-- **[Build apps → PHP SDK](https://developers.stayblox.com/apps/php-sdk)**
+- **[Build apps → PHP SDK](https://dev.stayblox.com/apps/php-sdk)**
 
 ## License
 
