@@ -2,6 +2,8 @@
 
 The official PHP SDK for building apps on the [Stayblox](https://stayblox.com) platform. It handles the Stayblox side of an app so you can focus on your integration: OAuth install, the Developer GraphQL API client, request-signature verification, and the inbox messaging modules.
 
+> **This is a Laravel package.** It requires **Laravel 13** and PHP 8.4+, and reuses Laravel's Eloquent, HTTP client, encryption, and middleware. Building on another framework? Use the [Developer API](https://dev.stayblox.com/apps/graphql), [OAuth](https://dev.stayblox.com/apps/oauth), and [request signing](https://dev.stayblox.com/apps/signing) directly.
+
 ## Requirements
 
 - PHP 8.4+
@@ -26,4 +28,4 @@ Full guides, the API reference, and worked examples live in the Stayblox develop
 
 ## License
 
-See `composer.json`.
+MIT. See [LICENSE](LICENSE).

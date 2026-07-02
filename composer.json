@@ -1,6 +1,6 @@
 {
     "name": "stayblox/stayblox-php",
-    "description": "Official PHP SDK for building apps on the Stayblox platform.",
+    "description": "Official PHP SDK for building apps on the Stayblox platform. Laravel package.",
     "type": "library",
     "license": "MIT",
     "homepage": "https://github.com/staybloxapp/stayblox-php",
